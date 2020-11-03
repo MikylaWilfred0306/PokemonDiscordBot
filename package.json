@@ -1,8 +1,11 @@
 {
-“name”: “greeter-bot”,
-“version”: “1.0.0”,
-“description”: “My Pokemon Discord Bot”,
-“main”: “bot.js”,
-“author”: “Mikyla Wilfred”,
-“dependencies”: {}
+    "name": "pokemon",
+    "version": "1.0.0",
+    "description": "Get Pokemon Information",
+    "main": "bot.js",
+    "author": "Mikyla Wilfred",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "winston": "^3.3.3"
+    }
 }
